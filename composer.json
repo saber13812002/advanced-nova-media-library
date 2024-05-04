@@ -1,5 +1,5 @@
 {
-    "name": "ebess/advanced-nova-media-library",
+    "name": "saber13812002/advanced-nova-media-library",
     "description": "Laravel Nova tools for managing the Spatie media library.",
     "keywords": [
         "laravel",
@@ -15,18 +15,18 @@
     "require": {
         "php": ">=7.4",
         "laravel/framework": "^8.0|^9.0|^10.0|^11.0",
-        "laravel/nova": "^4.0",
+        "saber13812002/laravel-nova": "^4.0",
         "spatie/laravel-medialibrary": "^8.0|^9.0|^10.0|^11.0"
     },
     "autoload": {
         "psr-4": {
-            "Ebess\\AdvancedNovaMediaLibrary\\": "src/"
+            "Saber13812002\\AdvancedNovaMediaLibrary\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ebess\\AdvancedNovaMediaLibrary\\AdvancedNovaMediaLibraryServiceProvider"
+                "Saber13812002\\AdvancedNovaMediaLibrary\\AdvancedNovaMediaLibraryServiceProvider"
             ]
         }
     },
