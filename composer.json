@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Saber13812002\\AdvancedNovaMediaLibrary\\": "src/"
+            "Ebess\\AdvancedNovaMediaLibrary\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Saber13812002\\AdvancedNovaMediaLibrary\\AdvancedNovaMediaLibraryServiceProvider"
+                "Ebess\\AdvancedNovaMediaLibrary\\AdvancedNovaMediaLibraryServiceProvider"
             ]
         }
     },
